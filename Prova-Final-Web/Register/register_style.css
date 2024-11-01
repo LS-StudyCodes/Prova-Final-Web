@@ -1,0 +1,24 @@
+.login-section {
+    background-color: #F8F9FA;
+    padding: 64px 0;
+  }
+  
+  .card {
+    border-radius: 15px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #343a40;
+  }
+
+  .btn-secondary {
+    background-color: transparent;
+    border: #41416b solid;
+    color: #41416b;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-secondary:hover {
+    background-color: #7373a7;
+  }

@@ -1,0 +1,20 @@
+/* Estilos customizados para a página de vendas */
+.contact-section {
+  background-color: #f8f9fa;
+}
+
+.contact-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}

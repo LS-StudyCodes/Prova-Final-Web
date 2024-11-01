@@ -1,0 +1,18 @@
+Respostas das Perguntas:
+1) O que acontecerá com os links de navegação ao serem visualizados em um dispositivo com largura de tela de 450px?
+
+Resposta: d) Os links desaparecerão, pois é aplicado display: none
+
+Justificativa: A regra CSS @media (max-width: 500px) define que quando a largura da tela for menor ou igual a 500px, a classe .nav-links terá display: none.
+
+2) Onde a caixa 2 aparecerá em relação à caixa 1 e ao container?
+
+Resposta: b) No canto inferior direito do container, a 10px de ambas as bordas
+
+Justificativa: O CSS define a caixa 2 com position: absolute, bottom: 10px e right: 10px. Posicionando a 10px da borda inferior e da direita do container.
+
+3) Qual caixa será exibida sobre as outras, e por quê?
+
+Resposta: b) Caixa 2 porque tem um z-index maior que as outras
+
+Justificativa: O atributo z-index controla a ordem de posição dos elementos como se fosse uma pilha. A caixa 2 tem z-index: 2, o maior valor entre as caixas, fazendo com que seja exibida como se estivesse em cima.

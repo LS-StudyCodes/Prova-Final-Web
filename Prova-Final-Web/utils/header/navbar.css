@@ -1,0 +1,40 @@
+.custom-navbar {
+  background-color: #41416b;
+}
+
+.navbar-dark .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #fff;
+}
+
+.dropdown-menu {
+  display: none;
+  background-color: #41416b;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  color: #fff;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.position-relative {
+  position: relative;
+}
